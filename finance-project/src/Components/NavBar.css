@@ -19,7 +19,7 @@
     list-style: none;
     display: flex;
     height: 100%;
-    align-items: auto;
+    align-items: center;
 }
 
 .navbar-links li{
