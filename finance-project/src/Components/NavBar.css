@@ -52,7 +52,7 @@
     bottom: -3px;
     left: 50%;
     background-color: #fff;
-    transition: width 0.0s, left 0.3s;
+    transition: width 0.3s, left 0.3s;
 }
 
 .navbar-links li a:hover {
