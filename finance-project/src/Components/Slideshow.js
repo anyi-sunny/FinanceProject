@@ -1,9 +1,9 @@
 import React from 'react';
 import './Slideshow.css'
 
-function Slideshow() {
-    const colors = ["#008FE", "#00C49F", "#FFBB28"];
+const colors = ["blue", "red", "white"];
 
+function Slideshow() {
     return (
         <div className="slideshow">
             <div className="slideshowSlider">
@@ -20,4 +20,4 @@ function Slideshow() {
     )
 }
 
-export default Slideshow
+export default Slideshow;
