@@ -1,7 +1,7 @@
 import React from 'react';
 import './Slideshow.css'
 
-const colors = ["blue", "red", "white"];
+const colors = ["blue", "red", "red"];
 
 function Slideshow() {
     return (
