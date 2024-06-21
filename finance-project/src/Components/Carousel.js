@@ -28,6 +28,14 @@ function Carousel({ images }) {
             <button onClick={showNextImage} className="img-slider-btn" style={{ right: 0 }}>
                 &gt;
             </button>
+
+            {/* <img src={images[imageIndex].image} className="img-slider-img" alt={images[imageIndex].title}/>
+            <button onClick={showPrevImage} className="img-slider-btn" style={{ left: 0 }}>
+                &lt;
+            </button>
+            <button onClick={showNextImage} className="img-slider-btn" style={{ right: 0 }}>
+                &gt;
+            </button> */}
         </div>
     )
 }
