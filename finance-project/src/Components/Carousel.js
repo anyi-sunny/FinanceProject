@@ -20,7 +20,7 @@ function Carousel({ images }) {
     }
 
     return (
-        <div style={{ position: "relative" }}>
+        <div style={{ width: "100%", height: "100%", position: "relative" }}>
             <div style={{
                 display: "flex", 
                 overflow: "hidden", 
