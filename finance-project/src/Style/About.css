@@ -1,0 +1,74 @@
+
+
+.shell{
+    width: 75%;
+    margin: auto;
+}
+
+.innershell{
+    margin-top: 20;
+    margin-bottom: 20;
+}
+
+.slide{
+background: rgb(255, 255, 255);
+height: 450 px;
+border-radius: 5px;
+border-radius: 0.75rem;
+
+}
+
+.rounded {
+    height: 225px; 
+    justify-self: center;
+    justify-items: center;
+    align-items: center; 
+    justify-content: center;
+    border-top-left-radius: 2rem; 
+    border-bottom-left-radius: 2rem; 
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: indigo;
+    display: flex;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px; 
+    width: 200px; 
+    border-radius: 9999px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    color: #000000;
+    text-decoration: none;
+    gap: 10px;
+    padding: 4px;
+
+}
+
+.name{
+    font-weight: bold;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button{
+    width: 110px;
+    background: white;
+    font-size: large;
+    pad: 6px;
+    border-radius: 9999px;
+}
+
+.button:hover{
+    transform: scale(1.18);
+}
+
+
+
