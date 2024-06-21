@@ -19,6 +19,7 @@
     bottom: 0;
     padding: 1rem;
     cursor: pointer;
+    color: white;
     transition: background-color 100ms ease-in-out;
 }
 
