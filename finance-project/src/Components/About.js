@@ -22,8 +22,8 @@ function About (){
             <div className="shell">
                 <div className='innershell'>
                 <Slider {...settings}className='slider'>
-                    {data.map((d)=> (
-                        <div className='slide'>
+                    {data.map((d, index)=> (
+                        <div key={index} className='slide'>
                             <div className='rounded'>
                                 <img src ={d.img} alt ="" className='image' />
                             </div>
@@ -44,7 +44,7 @@ function About (){
 
 const data = [
     { name: "Anyi",
-        img: "https://robbreport.com/wp-content/uploads/2024/01/Travis-Scott-Sneakers.jpg?w=1000",
+        img: "finance-project/public/images/Anyi.png",
         text: "thats you",
     },
     {
