@@ -20,8 +20,21 @@ function Carousel({ images }) {
     }
 
     return (
-        <div style={{ width: "100%", height: "400px", position: "relative" }}>
-            <img src={images[imageIndex].image} className="img-slider-img" alt={images[imageIndex].title}/>
+        <div style={{ width: "100%", height: "100%", position: "relative" }}>
+            <div style={{
+                display: "flex", 
+                overflow: "hidden", 
+            }}>
+                {images.map((url, index) => (
+                <img
+                    key={index}
+                    src={url.image}
+                    className="img-slider-img"
+                    style={{ translate: `${-100 * imageIndex}%` }}
+                />
+                ))}
+            </div>
+            
             <button onClick={showPrevImage} className="img-slider-btn" style={{ left: 0 }}>
                 &lt;
             </button>
