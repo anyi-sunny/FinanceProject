@@ -1,4 +1,38 @@
-.shellCarousel{
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+.slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%
+}
+
+.slideshowDots {
+    text-align: center;
+}
+.slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 15px 7px 0px;
+    background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+    background-color: white;
+}
+
+/* .shellCarousel{
     width: 100%;
     margin: auto;
 }
@@ -22,4 +56,4 @@
     display: flex;
     height: 400px;
     width: 100%;
-}
+} */
