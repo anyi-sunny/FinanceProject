@@ -31,29 +31,3 @@
 .slideshowDot.active {
     background-color: white;
 }
-
-/* .shellCarousel{
-    width: 100%;
-    margin: auto;
-}
-
-.slideCarousel{
-    background: rgb(255, 255, 255);
-    height: 450px;
-}
-
-.roundedCarousel {
-    height: 225px; 
-    justify-self: center;
-    justify-items: center;
-    align-items: center; 
-    justify-content: center;
-    background-color: rgb(27, 149, 255);
-    display: flex;
-}
-
-.imageCarousel {
-    display: flex;
-    height: 400px;
-    width: 100%;
-} */

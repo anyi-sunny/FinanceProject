@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #143642;
     height: 60px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .navbar-links li a:hover {
-    color: #00aaff;
+    color: #59C9A5;
     transform: scale(1.18);
 }
 
