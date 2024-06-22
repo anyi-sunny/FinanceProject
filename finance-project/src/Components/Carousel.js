@@ -5,6 +5,7 @@ import '../Style/Carousel.css'
 //instead of dots, change the logic so that we have two buttons on the side that overlap the slides
 
 const colors = ["#59C9A5", "#EF6F6C", "#FFEE93"]
+const text = ["Welcome", "2nd Slide", "3rd Slide"]
 const delay = 5000;
 
 function Carousel({ images }) {
@@ -41,7 +42,7 @@ function Carousel({ images }) {
                 >
                     {colors.map((backgroundColor, index) => (
                         <div className="slide" key={index} style={{ backgroundColor }}>
-                            <h1>Text</h1>
+                            <h1>{text[index]}</h1>
                         </div>
                         
                     ))}
