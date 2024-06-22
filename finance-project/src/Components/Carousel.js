@@ -1,8 +1,11 @@
 import React from 'react';
 import '../Style/Carousel.css'
 
+//next thing to do - add description or just an overall sort of welcome
+//instead of dots, change the logic so that we have two buttons on the side that overlap the slides
+
 const colors = ["#59C9A5", "#EF6F6C", "#FFEE93"]
-const delay = 2500;
+const delay = 5000;
 
 function Carousel({ images }) {
     const [index, setIndex] = React.useState(0)
@@ -40,6 +43,7 @@ function Carousel({ images }) {
                         <div className="slide" key={index} style={{ backgroundColor }}>
                             <h1>Text</h1>
                         </div>
+                        
                     ))}
                 </div>
             </div>
