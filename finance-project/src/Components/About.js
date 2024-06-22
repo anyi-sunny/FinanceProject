@@ -23,7 +23,7 @@ function About (){
                 <div className='innershell'>
                 <Slider {...settings}className='slider'>
                     {data.map((d, index)=> (
-                        <div key={index} className='slide'>
+                        <div key={index} className='slideAbout'>
                             <div className='rounded'>
                                 <img src ={d.img} alt ="" className='image' />
                             </div>

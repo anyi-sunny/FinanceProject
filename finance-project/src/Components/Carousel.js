@@ -37,7 +37,9 @@ function Carousel({ images }) {
                     style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
                 >
                     {colors.map((backgroundColor, index) => (
-                        <div className="slide" key={index} style={{ backgroundColor }}/>
+                        <div className="slide" key={index} style={{ backgroundColor }}>
+                            <h1>Text</h1>
+                        </div>
                     ))}
                 </div>
             </div>
