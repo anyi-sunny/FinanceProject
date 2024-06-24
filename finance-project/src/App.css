@@ -15,3 +15,20 @@
   padding: 50px;
   text-align: center;
 }
+
+.description::before,
+.description::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #000; /* Change this color as needed */
+  margin: 10px auto;
+}
+
+.description::before {
+  margin-top: -20px; /* Adjust this value as needed */
+}
+
+.description::after {
+  margin-bottom: -20px; /* Adjust this value as needed */
+}
