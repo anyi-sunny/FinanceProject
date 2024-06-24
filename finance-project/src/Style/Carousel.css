@@ -34,3 +34,8 @@
 .slideshowDot.active {
     background-color: #59C9A5;
 }
+
+.headers{
+    padding: 100px;
+    font-size: 60px;
+}

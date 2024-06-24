@@ -42,7 +42,7 @@ function Carousel({ images }) {
                 >
                     {colors.map((backgroundColor, index) => (
                         <div className="slide" key={index} style={{ backgroundColor }}>
-                            <h1>{text[index]}</h1>
+                            <h1 className='headers'>{text[index]}</h1>
                         </div>
                         
                     ))}
