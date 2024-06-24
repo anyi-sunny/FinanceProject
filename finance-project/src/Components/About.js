@@ -31,7 +31,7 @@ function About (){
                             <div className='text'>
                                 <p className='name'>  {d.name}</p>
                                 <p>{d.text}</p>
-                                <button className="button">  Read More </button>
+                                <button className="button">  Contact Me </button>
                             </div>
                         </div>
                     ))}
