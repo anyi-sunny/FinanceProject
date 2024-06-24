@@ -21,6 +21,7 @@
   content: "";
   display: block;
   height: 1px;
+  width: 50px;
   background-color: #000; /* Change this color as needed */
   margin: 10px auto;
 }
