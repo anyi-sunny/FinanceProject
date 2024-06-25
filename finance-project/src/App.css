@@ -33,3 +33,7 @@
 .description::after {
   margin-bottom: -20px; /* Adjust this value as needed */
 }
+
+.About {
+  color: blue;
+}

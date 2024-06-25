@@ -8,13 +8,13 @@ function About (){
 
 
     const settings = {
-    dots: true,
-    infinite: true,
-    autoplay: true,
+    dots: false,
+    infinite: false,
+    autoplay: false,
     autoplaySpeed: 3500,
-    pauseOnHover: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    pauseOnHover: false,
+    slidesToShow: 2,
+    slidesToScroll: 0,
     
   };
     
