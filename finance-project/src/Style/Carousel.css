@@ -11,7 +11,7 @@
 
 .slide {
     display: inline-block;
-    height: 400px;
+    height: 500px;
     width: 100%;
     vertical-align: bottom;
     text-align: center;
@@ -19,6 +19,7 @@
 }
 
 .slideshowDots {
+    padding: 20px;
     text-align: center;
 }
 .slideshowDot {
@@ -36,6 +37,6 @@
 }
 
 .headers{
-    padding: 100px;
+    padding: 200px;
     font-size: 60px;
 }
