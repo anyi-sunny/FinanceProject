@@ -3,15 +3,17 @@
     justify-content: space-between;
     align-items: center;
     background-color: #143642;
-    height: 60px;
+    height: 80px;
 }
 
 .navbar-logo a {
-    font-size: 1.5rem;
+    text-decoration: none;
+    font-size: 30px;
     display: flex;
     align-items: center;
     height: 10%;
-    padding: 0.2rem;
+    padding: 20px;
+    color: white;
 }
 
 .navbar-logo img {
@@ -39,7 +41,7 @@
 .navbar-links li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 20px;
     display: flex;
     height: 100%;
     padding: 0 0.8rem;
