@@ -21,9 +21,7 @@
     padding-left: 1rem;
 }
 
-.navbar-logo:hover {
-    transform: scale(1.1);
-}
+
 
 .navbar-links {
     list-style: none;
