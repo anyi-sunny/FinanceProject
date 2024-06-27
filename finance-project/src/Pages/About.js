@@ -50,7 +50,7 @@ function About (){
 
 const data = [
     { name: "Anyi",
-        img: "finance-project/public/images/Anyi.png",
+        img:`${process.env.PUBLIC_URL}/images/Anyi.png`,
         text: "thats you",
     },
     {
