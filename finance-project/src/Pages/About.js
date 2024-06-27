@@ -3,6 +3,7 @@ import '../Style/About.css'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import NavBar from '../Components/NavBar';
 
 function About (){
 
@@ -19,6 +20,8 @@ function About (){
   };
     
     return ( 
+        <div>
+            <NavBar></NavBar>
             <div className="shell">
                 <div className='innershell'>
                 <Slider {...settings}className='slider'>
@@ -37,6 +40,7 @@ function About (){
                     ))}
                 </Slider>
                 </div>
+            </div>
             </div>
     )
 
