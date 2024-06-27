@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import NavBar from '../Components/NavBar';
+import Footer from '../Components/Footer';
 
 function About (){
 
@@ -41,6 +42,7 @@ function About (){
                 </Slider>
                 </div>
             </div>
+            <Footer></Footer>
             </div>
     )
 
