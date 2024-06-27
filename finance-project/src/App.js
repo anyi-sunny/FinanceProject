@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from './Components/NavBar'
 import Carousel from './Components/Carousel';
 import { slides } from './Components/Data'
-import About from './Components/About'
 import Footer from './Components/Footer'
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
         <h1 className='description'>As financially insecure students, we built this website to help people like ourselves get ahead and feel a little better about their future. </h1>
       </div>
       <div>
-        <About />
       </div>
       <div>
         <Footer />
