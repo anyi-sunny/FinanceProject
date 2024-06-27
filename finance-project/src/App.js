@@ -15,7 +15,7 @@ function App() {
         <Carousel images={ slides }/>
       </div>
       <div>
-        <h1 className='description'>Here's a little tagline about our website. We are for students. We have resources. Donate us money please</h1>
+        <h1 className='description'>As financially insecure students, we built this website to help people like ourselves get ahead and feel a little better about their future. </h1>
       </div>
       <div>
         <About />
