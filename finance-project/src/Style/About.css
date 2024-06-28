@@ -2,7 +2,9 @@
 
 .shell{
     width: 75%;
-    margin: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #E0F5EF;
     text-align: center;
     padding: 2rem;
