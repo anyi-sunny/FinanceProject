@@ -3,7 +3,7 @@
 .shell{
     width: 75%;
     margin: auto;
-    background-color: aliceblue;
+    background-color: #E0F5EF;
     text-align: center;
     padding: 2rem;
     font-size: 2rem;
@@ -16,7 +16,6 @@
 .mission{
     width: 75%;
     margin: auto;
-    background-color: aliceblue;
     text-align: center;
     padding: 1.2rem;
     font-size: 1.2rem;
@@ -29,7 +28,6 @@
 .innershell{ /* our team */
     margin-top: 2rem;
     margin-bottom: 1rem;
-    background-color: aliceblue;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -41,8 +39,7 @@
 
 .slideAbout{
     padding: 2.5rem;
-background: aliceblue;
-height: 450 px;
+    height: 450 px;
 }
 
 .rounded {
@@ -51,8 +48,6 @@ height: 450 px;
     justify-items: center;
     align-items: center; 
     justify-content: center;
-
-    background-color: aliceblue;
     display: flex;
 }
 
