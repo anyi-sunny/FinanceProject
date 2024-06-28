@@ -25,7 +25,7 @@ function About (){
             <NavBar/>
             <div className="shell">
                 <div className='innershell'>
-                <Slider {...settings}className='slider'>
+                <Slider {...settings}className='slider' />
             <NavBar></NavBar>
             <div className="shell"> Our Mission
                 <div className='mission'>Our Mission is to help students</div> 
@@ -49,6 +49,8 @@ function About (){
             </div>
             <Footer></Footer>
             </div>
+            </div>
+        </div>
     )
 
 }
