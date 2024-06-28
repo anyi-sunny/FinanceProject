@@ -26,8 +26,13 @@ function About (){
             <div className="shell">
                 <div className='innershell'>
                 <Slider {...settings}className='slider'>
+            <NavBar></NavBar>
+            <div className="shell"> Our Mission
+                <div className='mission'>Our Mission is to help students</div> 
+                <div className='innershell' > Our Team
+                <Slider {...settings}className='slider'> 
                     {data.map((d, index)=> (
-                        <div key={index} className='slideAbout'>
+                        <div key={index} className='slideAbout'> 
                             <div className='rounded'>
                                 <img src ={d.img} alt ="" className='image' />
                             </div>

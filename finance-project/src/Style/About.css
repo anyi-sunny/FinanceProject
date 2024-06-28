@@ -3,16 +3,42 @@
 .shell{
     width: 75%;
     margin: auto;
-    padding: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+
 }
 
-.innershell{
-    margin-top: 20;
-    margin-bottom: 20;
+.mission{
+    width: 75%;
+    margin: auto;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-decoration: none;
+
+}
+
+.innershell{ /* our team */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .slideAbout{
-background: rgb(255, 255, 255);
+    padding: 2.5rem;
+background: aliceblue;
 height: 450 px;
 }
 
@@ -22,10 +48,7 @@ height: 450 px;
     justify-items: center;
     align-items: center; 
     justify-content: center;
-    border-top-left-radius: 2rem; 
-    border-bottom-left-radius: 2rem; 
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+
     background-color: aliceblue;
     display: flex;
 }
@@ -35,12 +58,12 @@ height: 450 px;
     margin-right: auto;
     height: 200px; 
     width: 200px; 
-    border-radius: 9999px;
     object-fit: cover;
 }
 
 .text{
     display: flex;
+    font-size: 1.2rem;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
@@ -48,12 +71,14 @@ height: 450 px;
     text-decoration: none;
     gap: 10px;
     padding: 4px;
+    font-size: large;
+    font-weight: initial;
 
 }
 
 .name{
     font-weight: bold;
-    font-size: x-large;
+    font-size: large;
     justify-content: center;
     justify-items: center;
 }
