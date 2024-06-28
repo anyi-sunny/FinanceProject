@@ -26,7 +26,6 @@ function About (){
             <div className="shell">
                 <div className='innershell'>
                 <Slider {...settings}className='slider' />
-            <NavBar></NavBar>
             <div className="shell"> Our Mission
                 <div className='mission'>Our Mission is to help students</div> 
                 <div className='innershell' > Our Team
@@ -47,9 +46,9 @@ function About (){
                 </Slider>
                 </div>
             </div>
-            <Footer></Footer>
             </div>
             </div>
+            <Footer/>
         </div>
     )
 
