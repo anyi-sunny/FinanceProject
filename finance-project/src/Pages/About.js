@@ -22,6 +22,10 @@ function About (){
     
     return ( 
         <div>
+            <NavBar/>
+            <div className="shell">
+                <div className='innershell'>
+                <Slider {...settings}className='slider'>
             <NavBar></NavBar>
             <div className="shell"> Our Mission
                 <div className='mission'>Our Mission is to help students</div> 
