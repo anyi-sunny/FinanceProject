@@ -22,7 +22,7 @@ function About (){
     
     return ( 
         <div>
-            <NavBar></NavBar>
+            <NavBar/>
             <div className="shell">
                 <div className='innershell'>
                 <Slider {...settings}className='slider'>
