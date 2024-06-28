@@ -14,6 +14,7 @@
     height: 10%;
     padding: 20px;
     color: white;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 }
 
 .navbar-logo img {
@@ -47,6 +48,7 @@
     padding: 0 0.8rem;
     position: relative;
     transition: color 0.3s, text-shadow 0.3s;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 }
 
 .navbar-links li a::after {

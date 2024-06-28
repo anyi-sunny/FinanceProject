@@ -14,6 +14,7 @@
 .description {
   padding: 200px;
   text-align: center;
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 }
 
 .description::before,

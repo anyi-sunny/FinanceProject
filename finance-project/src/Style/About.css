@@ -8,6 +8,7 @@
     padding: 2rem;
     font-size: 2rem;
     font-weight: bold;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 
 
 }
@@ -21,6 +22,7 @@
     font-size: 1.2rem;
     font-weight: normal;
     text-decoration: none;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 
 }
 
@@ -34,6 +36,7 @@
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 }
 
 .slideAbout{
@@ -62,6 +65,7 @@ height: 450 px;
 }
 
 .text{
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     display: flex;
     font-size: 1.2rem;
     flex-direction: column;
