@@ -12,10 +12,10 @@ function SixteenEighteen () {
                 <h1>For ages 16-18</h1>
                 <div>
                     <p>
-                        As someone younger than the age of 16, there isn't really much you can do. For now, open a checking and savings account and get a job if you'd like. Practice being financially independent with the money you earn and save. 
+                        At this age, you are eligible to be listed as an authorized user for a credit card. This is a great way to begin building good credit. However, make sure the credit card holder is financially responsible and pays off their bills for this card on time. Any missed payments not only affect their score, but also yours. 
                     </p>
                     <p>
-                        Check the child labor laws to ensure you have met the requirements whether that be age or other sorts of eligibility. A great way to improve your chances of getting a job may be walking into the establishment and talking to an employee. Oftentimes, they benefit from your hire if they end up referring you from that interaction.  
+                        Create an account on credit karma where you can start tracking all of your transactions and be able to monitor your credit score without risk of lowering it.  
                     </p>
                 </div>
             </div>
