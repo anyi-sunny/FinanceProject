@@ -1,9 +1,6 @@
 import React from 'react';
 import '../Style/Carousel.css'
 
-//next thing to do - add description or just an overall sort of welcome
-//instead of dots, change the logic so that we have two buttons on the side that overlap the slides
-
 // const colors = ["#59C9A5", "#EF6F6C", "#FFEE93"]
 const colors = ["#59C9A5", "#59C9A5", "#59C9A5"]
 const text = ["Student", "Finance", "Simplified"]

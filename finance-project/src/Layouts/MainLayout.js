@@ -7,7 +7,7 @@ import NavBar from '../Components/NavBar'
 function MainLayout({children}){
     return(
         <div>
-            <NavBar></NavBar>
+            <NavBar/>
             <div> {children} </div>
         </div>
     )
