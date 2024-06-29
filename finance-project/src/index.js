@@ -6,10 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import About  from './Pages/About';
 import Contact from './Pages/Contact';
 import Services from './Pages/Services';
+import Sixteen from './Pages/Subpages/16u';
+
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import SixteenEighteen from './Pages/Subpages/16-18';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +31,14 @@ const router = createBrowserRouter([
     path: "Services",
     element: <Services/>,
   },
+  {
+    path: "16u", 
+    element: <Sixteen/>
+  },
+  {
+    path: "16-18",
+    element: <SixteenEighteen/>
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
