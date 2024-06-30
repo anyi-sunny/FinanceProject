@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust the gap between items as needed */
+    padding: 4rem;
+}
+
+.grid-item img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}

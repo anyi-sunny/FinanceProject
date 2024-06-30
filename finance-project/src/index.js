@@ -7,6 +7,8 @@ import About  from './Pages/About';
 import Contact from './Pages/Contact';
 import Services from './Pages/Services';
 import Sixteen from './Pages/Subpages/16u';
+import EighteenTwenty from './Pages/Subpages/18-20';
+import TwentyOver from './Pages/Subpages/20o';
 
 import {
   createBrowserRouter,
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
   {
     path: "16-18",
     element: <SixteenEighteen/>
+  },
+  {
+    path: "18-20",
+    element: <EighteenTwenty/>
+  },
+  {
+    path: "20o",
+    element: <TwentyOver/>
   }
 ]);
 

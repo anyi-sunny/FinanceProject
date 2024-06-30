@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../Components/NavBar'
 import Footer from '../Components/Footer'
 import { Link } from "react-router-dom";
+import '../Style/Services.css'
 
 function Services(){
     return(
@@ -18,9 +19,21 @@ function Services(){
                 </p>
             </div>
             <div>
-                <Link className='links' to='/16u'> For Sixteen and Younger </Link>
-                <Link className='links' to='/16-18'>For Sixteen to Eighteen</Link>
-            </div>
+            <div className="grid-container">
+    <Link className='grid-item' to='/16u'>
+        <img src='images/Kyle.jpg' alt='For Sixteen and Younger'/>
+    </Link>
+    <Link className='grid-item' to='/16-18'>
+        <img src='images/Kyle.jpg' alt='For Sixteen to Eighteen' />
+    </Link>
+    <Link className='grid-item' to='/18-20'>
+        <img src='images/Kyle.jpg' alt='For Eighteen to Twenty' />
+    </Link>
+    <Link className='grid-item' to='/20o'>
+        <img src='images/Kyle.jpg' alt='For Twenty and Older' />
+    </Link>
+</div>
+    </div>
             <Footer/>
         </div>
     )
