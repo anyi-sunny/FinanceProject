@@ -1,5 +1,6 @@
 .ageShell {
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 h1 {
@@ -8,6 +9,10 @@ h1 {
 
 p {
     padding-bottom: 25px;
+}
+
+.services {
+    padding-left: 50px;
 }
 
 .links {
