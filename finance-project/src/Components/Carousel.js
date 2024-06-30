@@ -4,7 +4,7 @@ import '../Style/Carousel.css'
 // const colors = ["#59C9A5", "#EF6F6C", "#FFEE93"]
 const colors = ["#59C9A5", "#59C9A5", "#59C9A5"]
 const text = ["Student", "Finance", "Simplified"]
-const delay = 5000;
+const delay = 3000;
 
 function Carousel({ images }) {
     const [index, setIndex] = React.useState(0)
