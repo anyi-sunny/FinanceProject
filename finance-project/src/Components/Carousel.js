@@ -46,7 +46,7 @@ function Carousel({ images }) {
                     ))}
                 </div>
             </div>
-            <div className="slideshowDots">
+            {/* <div className="slideshowDots">
                 {colors.map((_, idx) => (
                     <div 
                         key={idx} 
@@ -56,7 +56,7 @@ function Carousel({ images }) {
                         }}
                     ></div>
                 ))}
-            </div>
+            </div> */}
         </div>
         
     )
