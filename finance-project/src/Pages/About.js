@@ -62,7 +62,7 @@ const data = [
     {
         name: "Kyle",
         img: `${process.env.PUBLIC_URL}/images/Kyle.jpg`,
-        text: "As a student who didn’t grow up with a strong financial literacy skill set, I wanted to make sure that other students avoided a similar lack of knowledge had access to the tools to help themselves build their own literacy and empower themselves financially. ",
+        text: "As a student who didn’t grow up with a strong financial literacy skill set, I wanted to make sure that other students avoided a similar lack of knowledge and had access to the tools to help themselves build their own literacy and empower themselves financially.",
     }
 
 ]

@@ -9,7 +9,7 @@ function Services(){
         <div>
             <NavBar/>
             <div className='ageShell'>
-                <h1>Explore
+                <h1>Learn
                 </h1>
             </div>
             <div>
