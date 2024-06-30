@@ -1,7 +1,19 @@
+.ageShell{
+    font-size: x-large;
+    text-align: center;
+    padding: auto;
+}
+
+.services{
+    text-align: center;
+    font-size: large;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px; /* Adjust the gap between items as needed */
+    gap: 1rem; /* Adjust the gap between items as needed */
     padding: 4rem;
 }
 
