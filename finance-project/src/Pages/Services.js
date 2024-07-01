@@ -9,7 +9,8 @@ function Services(){
         <div>
             <NavBar/>
             <div className='ageShell'>
-                <h1>Learn
+                <h1 className='learnHeader'>
+                    Learn
                 </h1>
             </div>
             <div>
