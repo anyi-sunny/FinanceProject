@@ -57,7 +57,7 @@ function About (){
 const data = [
     { name: "Anyi",
         img:`${process.env.PUBLIC_URL}/images/Anyi.png`,
-        text: "It all started when I was on may way into college and worried about building credit. Now, I'm excited to share what I've learned and help other students who were in a place just like mine. ",
+        text: "It all started when I was on may way into college and worried about building credit. I surfed the internet and realized it was not easy to find free advice catered to students. Now, I'm excited to share what I've learned and help other students who were in a place just like mine. ",
     },
     {
         name: "Kyle",
