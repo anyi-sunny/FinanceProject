@@ -31,7 +31,7 @@
 }
 
 .basicsinfo {
-    text-align: center;
+    text-align: left;
     width: 75%;
     padding: 2rem;
     font-size: large;
@@ -46,7 +46,7 @@
 }
 
 .innerrb {
-    text-align: center;
+    text-align: left;
     width: 75%;
     padding: 2rem;
     font-size: large;
@@ -105,20 +105,18 @@
 .thoughts{
     width: 75%;
     padding-top: 2rem;
-
+    text-align: left;
     font-size: large;
 }
 
 .othercards{
     padding-top: 2rem;
-    font-size: large;
-    align-self: center;
-    
+    font-size: large; 
 }
 
 .othercards li{
     display: list-item;
-    text-align: center; /* Align text within list items to the left */
+    text-align: left; /* Align text within list items to the left */
     list-style-type: none;
 
 }
