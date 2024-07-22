@@ -23,3 +23,7 @@
     height: auto; 
     display: block; 
 }
+
+.grid-item:hover{
+    transform: scale(1.015);
+}

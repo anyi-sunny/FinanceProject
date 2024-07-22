@@ -21,16 +21,16 @@ function Services(){
             <div>
             <div className="grid-container">
                 <Link className='grid-item' to='/16u'>
-                 <img src='images/Kyle.jpg' alt='For Sixteen and Younger'/>
+                 <img src='images/16-.png' alt='For Sixteen and Younger'/>
                 </Link>
                 <Link className='grid-item' to='/16-18'>
-                    <img src='images/Kyle.jpg' alt='For Sixteen to Eighteen' />
+                    <img src='images/16-18.png' alt='For Sixteen to Eighteen' />
                 </Link>
                 <Link className='grid-item' to='/18-20'>
-                    <img src='images/Kyle.jpg' alt='For Eighteen to Twenty' />
+                    <img src='images/18-20.png' alt='For Eighteen to Twenty' />
                 </Link>
                 <Link className='grid-item' to='/20o'>
-                    <img src='images/Kyle.jpg' alt='For Twenty and Older' />
+                    <img src='images/20+.png' alt='For Twenty and Older' />
                 </Link>
             </div>
     </div>
