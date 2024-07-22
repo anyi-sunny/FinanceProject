@@ -8,7 +8,7 @@ function Services(){
     return(
         <div>
             <NavBar/>
-            <div className='ageShell'>
+            <div>
                 <h1 className='learnHeader'>
                     Learn
                 </h1>
