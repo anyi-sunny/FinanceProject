@@ -39,3 +39,18 @@
 .About {
   color: blue;
 }
+
+button {
+  background-color: #143642;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none
+}
+
+button:hover {
+  background-color: #1436426e;
+  color: #143642;
+}
