@@ -17,7 +17,7 @@ function EighteenTwenty () {
                     </p>
                     </div>
                     <div className="grid-container">
-                    <Link className='grid-item' to='/16u'>
+                    <Link className='grid-item' to='/cardcomparison'>
                     <img src='images/16-.png' alt='For Sixteen and Younger'/>
                     </Link>
             </div>
