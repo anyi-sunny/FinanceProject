@@ -102,9 +102,6 @@ function CardComp (){
                         </ul>
 
                     </div>
-                    <p>
-                       
-                    </p>
                 </div>
             </div>
             <Footer/>
