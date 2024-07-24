@@ -3,7 +3,7 @@ import NavBar from '../../Components/NavBar';
 import Footer from '../../Components/Footer';
 
 
-function cardcomp (){
+function CardComp (){
     return (
         <div>
             <NavBar/>
@@ -112,4 +112,4 @@ function cardcomp (){
     )
 }
 
-export default cardcomp
+export default CardComp
