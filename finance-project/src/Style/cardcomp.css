@@ -1,5 +1,7 @@
 
-
+.wholething{
+    text-align: center;
+}
 .cardbasics {
     display: flex;
     padding-top: 2rem;

@@ -21,8 +21,9 @@ function EighteenTwenty () {
                     <img src='images/16-.png' alt='For Sixteen and Younger'/>
                     </Link>
             </div>
-            <Footer/>
+            
         </div>
+        <Footer/>
     </div>
     )
 }
