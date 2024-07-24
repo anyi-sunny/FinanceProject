@@ -1,18 +1,13 @@
 import React from 'react';
 import NavBar from '../../Components/NavBar';
 import Footer from '../../Components/Footer';
+import '../../Style/cardcomp.css';
 
 
 function CardComp (){
     return (
         <div>
             <NavBar/>
-            <div className='ageShell'>
-                <h1>For Those Ages 18-20</h1>
-                <div>
-                    <p className='intro'>
-                    Congrats! You’re old enough to get your first credit card! Discover it Student Cash Back and SavorOne Student Cash Rewards Credit Card are great starter cards for students. Starter cards tend to have lower benefits, no annual fee, and a lower standard for approval. The purpose of these are to further increase your credit score/build up a good history so that you increase your chances at getting approved for a card with better benefits. 
-                    </p>
                     <div className='cardbasics'>
                         Before we explain our top two cards, lets go over some credit card basics.
                         <p className='basicsinfo'>
@@ -105,8 +100,6 @@ function CardComp (){
                     <p>
                        
                     </p>
-                </div>
-            </div>
             <Footer/>
         </div>
     )

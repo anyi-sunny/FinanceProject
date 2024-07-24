@@ -9,6 +9,7 @@ import Services from './Pages/Services';
 import Sixteen from './Pages/Subpages/16u';
 import EighteenTwenty from './Pages/Subpages/18-20';
 import TwentyOver from './Pages/Subpages/20o';
+import CardComp from './Pages/articles/CardComp';
 
 import {
   createBrowserRouter,
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: "20o",
     element: <TwentyOver/>
+  },
+  {
+    path: "cardcomparison",
+    element: <CardComp/>
   }
 ]);
 
