@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../../Components/NavBar';
 import Footer from '../../Components/Footer';
 import '../../Style/AgePage.css';
+import { Link } from "react-router-dom";
 
 function SixteenEighteen () {
 
@@ -17,6 +18,20 @@ function SixteenEighteen () {
                     <p>
                         Create an account on credit karma where you can start tracking all of your transactions and be able to monitor your credit score without risk of lowering it.  
                     </p>
+                </div>
+                <div className="grid-container">
+                    <Link className='grid-item' to='/savecheck'>
+                    <img src='images/16-.png' alt='For Sixteen and Younger'/>
+                    </Link>
+                    <Link className='grid-item' to='/rothIRA'>
+                        <img src='images/16-18.png' alt='For Sixteen to Eighteen' />
+                    </Link>
+                    <Link className='grid-item' to='/highyeild'>
+                        <img src='images/18-20.png' alt='For Eighteen to Twenty' />
+                    </Link>
+                    <Link className='grid-item' to='/cardcomparison'>
+                        <img src='images/20+.png' alt='For Twenty and Older' />
+                    </Link>
                 </div>
             </div>
             <Footer/>
