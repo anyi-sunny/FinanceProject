@@ -16,11 +16,20 @@ function EighteenTwenty () {
                     Congrats! You’re old enough to get your first credit card! Discover it Student Cash Back and SavorOne Student Cash Rewards Credit Card are great starter cards for students. Starter cards tend to have lower benefits, no annual fee, and a lower standard for approval. The purpose of these are to further increase your credit score/build up a good history so that you increase your chances at getting approved for a card with better benefits. 
                     </p>
                     </div>
-                    <div className="grid-container">
-                    <Link className='grid-item' to='/cardcomparison'>
+            <div className="grid-container">
+                    <Link className='grid-item' to='/savecheck'>
                     <img src='images/16-.png' alt='For Sixteen and Younger'/>
                     </Link>
-            </div>
+                    <Link className='grid-item' to='/rothIRA'>
+                        <img src='images/16-18.png' alt='For Sixteen to Eighteen' />
+                    </Link>
+                    <Link className='grid-item' to='/highyeild'>
+                        <img src='images/18-20.png' alt='For Eighteen to Twenty' />
+                    </Link>
+                    <Link className='grid-item' to='/cardcomparison'>
+                        <img src='images/20+.png' alt='For Twenty and Older' />
+                    </Link>
+                </div>
             
         </div>
         <Footer/>
