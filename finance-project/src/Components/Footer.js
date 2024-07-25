@@ -8,7 +8,7 @@ function Footer () {
         <div className='footer'>
             <ul className='footer-links'>
                 <li><Link to='/contact'> Contact </Link></li>
-                <li><a href='https://www.instagram.com/finance.sp/' target='_blank' rel='noopener noreferrer'>Instagram</a></li>
+                <li><a href='https://www.instagram.com/fullstack.sp/' target='_blank' rel='noopener noreferrer'>Instagram</a></li>
 
 
             </ul>
