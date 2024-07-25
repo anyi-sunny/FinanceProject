@@ -8,6 +8,7 @@ function CardComp (){
         <div>
             <NavBar/>
             <div className='ageShell'>
+            <div className='text'>
                 <h1>Roth IRA: the best retirement account you'll ever have</h1>
                 <div className='intro'>
                     Opening a Roth IRA is the best you can do period. 
@@ -51,6 +52,7 @@ function CardComp (){
                     If you think about it this way, every year counts. 
                     That doesn’t mean invest all the money you have right now but it’s good to set aside a reasonable sum that you’d be willing to put away. 
                 </p>
+            </div>
             </div>
             <Footer/>
         </div>
