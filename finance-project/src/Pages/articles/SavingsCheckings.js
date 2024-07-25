@@ -9,7 +9,7 @@ function SavingsChecking(){
     return(
         <div>
             <NavBar/>
-        <div className='ageShell'>
+        <div className='main'>
                     
             <h1>Checkings and Savings Accounts</h1>
             <p>
