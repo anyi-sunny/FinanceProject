@@ -100,9 +100,6 @@ function SavingsChecking(){
         </div>
         <Footer/>
         </div>
-
-
     )
-
 }
 export default SavingsChecking
