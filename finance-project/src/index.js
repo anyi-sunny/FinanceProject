@@ -10,12 +10,14 @@ import Sixteen from './Pages/Subpages/16u';
 import EighteenTwenty from './Pages/Subpages/18-20';
 import TwentyOver from './Pages/Subpages/20o';
 import CardComp from './Pages/articles/CardComp';
+import SixteenEighteen from './Pages/Subpages/16-18';
+import SavingsCheckings from './Pages/articles/SavingsCheckings';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import SixteenEighteen from './Pages/Subpages/16-18';
+
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "cardcomparison",
     element: <CardComp/>
+  },
+  {
+    path: "savecheck",
+    element: <SavingsCheckings/>
   }
 ]);
 
