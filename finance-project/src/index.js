@@ -12,6 +12,9 @@ import TwentyOver from './Pages/Subpages/20o';
 import CardComp from './Pages/articles/CardComp';
 import SixteenEighteen from './Pages/Subpages/16-18';
 import SavingsCheckings from './Pages/articles/SavingsCheckings';
+import HighYieldSavings from './Pages/articles/HighYieldSavings';
+import RothIRA from './Pages/articles/RothIRA';
+
 
 import {
   createBrowserRouter,
@@ -59,6 +62,14 @@ const router = createBrowserRouter([
   {
     path: "savecheck",
     element: <SavingsCheckings/>
+  },
+  {
+    path: "highyeild",
+    element: <HighYieldSavings/>
+  },
+  {
+    path: "rothIRA",
+    element: <RothIRA/>
   }
 ]);
 
