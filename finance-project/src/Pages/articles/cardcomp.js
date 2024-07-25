@@ -9,6 +9,10 @@ function CardComp (){
         <div>
             <NavBar/>
             <div className='wholething'>
+                <h1>Looking to get your first credit card? 
+                    <br></br>
+                    We've picked out our two favorites
+                </h1>
                     <div className='cardbasics'>
                         Before we explain our top two cards, lets go over some credit card basics.
                         <p className='basicsinfo'>
@@ -96,11 +100,7 @@ function CardComp (){
 
 
                         </ul>
-
                     </div>
-                    <p>
-                       
-                    </p>
                     </div>
             <Footer/>
         </div>
