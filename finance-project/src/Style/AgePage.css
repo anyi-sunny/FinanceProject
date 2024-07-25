@@ -1,9 +1,13 @@
 .ageShell {
     padding: 50px;
     display: block;
-    text-align: left;
-    
+    text-align: left; 
 }
+
+.text {
+    text-align: left;
+}
+
 h1 {
     padding-bottom: 50px;
 }
