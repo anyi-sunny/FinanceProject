@@ -21,13 +21,13 @@ function SixteenEighteen () {
                 </div>
                 <div className="grid-container">
                     <Link className='grid-item' to='/savecheck'>
-                    <img src='images/16-.png' alt='For Sixteen and Younger'/>
+                    <img src='images/checksave.png' alt='For Sixteen and Younger'/>
                     </Link>
                     <Link className='grid-item' to='/rothIRA'>
-                        <img src='images/16-18.png' alt='For Sixteen to Eighteen' />
+                        <img src='images/rothira.png' alt='For Sixteen to Eighteen' />
                     </Link>
                     <Link className='grid-item' to='/highyeild'>
-                        <img src='images/18-20.png' alt='For Eighteen to Twenty' />
+                        <img src='images/highyeild.png' alt='For Eighteen to Twenty' />
                     </Link>
                 </div>
             </div>
