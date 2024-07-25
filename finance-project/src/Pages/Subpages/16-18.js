@@ -29,9 +29,6 @@ function SixteenEighteen () {
                     <Link className='grid-item' to='/highyeild'>
                         <img src='images/18-20.png' alt='For Eighteen to Twenty' />
                     </Link>
-                    <Link className='grid-item' to='/cardcomparison'>
-                        <img src='images/20+.png' alt='For Twenty and Older' />
-                    </Link>
                 </div>
             </div>
             <Footer/>
