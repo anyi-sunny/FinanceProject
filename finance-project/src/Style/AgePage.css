@@ -1,6 +1,8 @@
 .ageShell {
     display: block;
     text-align: left; 
+    margin: auto;
+    max-width: 1000px;
 }
 
 .text {
