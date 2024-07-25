@@ -7,7 +7,7 @@ function CardComp (){
     return (
         <div>
             <NavBar/>
-            <div className='ageShell'>
+            <div className='text'>
                 <h1>Getting a High Yield Savings Account</h1>
                 <div className='intro'>
                     High Yield Savings accounts are fantastic for medium term savings(think of retirement as a long terms savings account). 

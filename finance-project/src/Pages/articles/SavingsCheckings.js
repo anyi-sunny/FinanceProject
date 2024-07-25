@@ -9,7 +9,6 @@ function SavingsChecking(){
     return(
         <div>
             <NavBar/>
-        <div className='ageShell'>
             <div className='text'>
                     
             <h1>Checkings and Savings Accounts</h1>
@@ -98,8 +97,6 @@ function SavingsChecking(){
             <h3>
             Understanding the basics of checking and savings accounts is the first step in becoming financially savvy. Start managing your money wisely today, and watch your savings grow!
             </h3>
-       
-            </div>
         </div>
         <Footer/>
         </div>
