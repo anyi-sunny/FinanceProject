@@ -24,6 +24,22 @@ function Sixteen () {
                     <img src='images/16-.png' alt='For Sixteen and Younger'/>
                     </Link>
             </div>
+            <div className="grid-container">
+                    <Link className='grid-item' to='/rothIRA'>
+                    <img src='images/16-.png' alt='For Sixteen and Younger'/>
+                    </Link>
+            </div>
+            <div className="grid-container">
+                    <Link className='grid-item' to='/highyeild'>
+                    <img src='images/16-.png' alt='For Sixteen and Younger'/>
+                    </Link>
+            </div>
+            <div className="grid-container">
+                    <Link className='grid-item' to='/cardcomparison'>
+                    <img src='images/16-.png' alt='For Sixteen and Younger'/>
+                    </Link>
+            </div>
+
             </div>
             <Footer/>
         </div>
