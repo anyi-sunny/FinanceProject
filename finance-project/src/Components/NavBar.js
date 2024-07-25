@@ -1,10 +1,12 @@
 import React from 'react';
 import '../Style/NavBar.css'
 import { Link } from "react-router-dom";
+import ScrollToTop from './ScrollToTop';
 
 function NavBar () {
     return (
         <nav className="navbar">
+            <ScrollToTop />
             <div className="navbar-logo">
                 <a href='/' classname='title'>
                 <img src={`${process.env.PUBLIC_URL}/images/CircleLogo.png`} alt="My Logo" />
